@@ -1,6 +1,10 @@
 /*//////////////////////////////
 //       Basic Styles         //
 //////////////////////////////*/
+@font-face {
+    font-family: 'BRoya';
+    src: url('../fonts/B Roya.ttf');
+}
 body{
   background-color: #f5f5f5;
   font-family: BRoya,"BRoya",tahoma;
