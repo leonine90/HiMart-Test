@@ -475,3 +475,18 @@ section label{
   position: absolute;
   text-decoration: line-through;
 }
+@media screen and (max-width:580px){
+	.right .header-link{
+		display: none;
+	}
+	.basket-counter{
+		display: none;
+	}
+	.basket-icon{
+		border-radius: 5px;
+		border-right: none;
+	}
+	.left .header-link{
+		display: none;
+	}
+}
