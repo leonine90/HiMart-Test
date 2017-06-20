@@ -322,8 +322,9 @@ section label{
 }
 .use-discount label:last-child{
   position: absolute;
-  left:-70%;
+  left:5%;
   top: 50%;
+  width: 80px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
