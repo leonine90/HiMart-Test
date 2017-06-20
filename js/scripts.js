@@ -33,7 +33,7 @@ $(document).ready(function(){
   $('.fa-trash-o').on('click',function(){
     $(this).parent().removeClass('show');
   });
-  $('.add-address').on('click',function(){
+  $('.add-btn').on('click',function(){
     if($('.address-2').hasClass('show')){
       $('.address-3').addClass('show');
     }else{
